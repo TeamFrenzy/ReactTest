@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.list-inline-item .btn-outline-info {
+  color: #5a606b;
+  border: 1px solid #5a606b;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  font-weight: 500;
+}
+.list-inline-item .btn-outline-info:hover {
+  color: #ffffff;
+  border-color: #ffffff;
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.fa-arrow-alt-circle-right {
+  color: #f4c10f;
+  font-size: 40px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.fa-arrow-alt-circle-right:hover {
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.searchbox {
+  display: block;
+  width: 500px;
+  padding: 15px;
+
+  border: none;
+  outline: none;
+  background: none;
+
+  background-color: #EEE;
+  border-radius: 8px;
+
+  color: #53565A;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.4s ease-out;
+
+}
+
+.searchbox:focus{
+  box-shadow: 0px 0px 8px 3px #4484C4;
+}
+
+.containerF {
+	display: flex;
+}
+
+.containerF > div {
+  flex-grow: 0.01;
+}
+
+.starFilter {
+  margin-top: 20px;
+}
+
+.searchFilter {
+  margin-top: 10px;
+}
+
+.mainContainer {
+  margin-left: 200px;
+  margin-right: 200px;
+}
